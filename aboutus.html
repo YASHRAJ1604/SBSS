@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SBSS-About Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="SMETLOGO.png">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="aboutus.css">
+</head>	
+<body>
+    
+        
+    <nav>
+        <a href="index.html"><img src="SMETLOGO.png"></a>
+        <div class="nav-links" id="navLinks">
+        
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="conferences.html">CONFERENCES</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="seminar.html">FDP/SEMINAR</a></li>
+                <li><a href="contactus.html">CONTACT</a></li>
+                
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+	<div class="section">
+		<div class="container">
+			<div class="content-section">
+				<div class="title">
+					<h1>About Us</h1>
+				</div>
+				<div class="content">
+					<h3>SBSS Society for innovative Research International (SSIRI)</h3>
+					<p>SBSS Society for innovative Research International (SSIRI) is an independent, private non-profit interdisciplinary professional 
+                        research society is functioned by a group of the researcher in the various area of specializations across the world. 
+                        This society recognizes the research contributions through the various distinguished awards and publications in National & International Journals. This research society is sponsored by SBSS  which is registered under Government of Maharashtra act 1950 with vide number AF - 9997 in the year of 2008. It organizes various researches events to build a strong relationship between academia and Industry by proposing Seminars, Workshops, conferences in the field of Arts, Commerce, Science, Education, Biotechnology, Agriculture and Engineering..</p>
+					
+				</div>
+				
+			</div>
+			<div class="image-section">
+				<img src="aboutus.jpg">
+			</div>
+		</div>
+	</div>
+    <section class="footer">
+        <h3> &copy;2021 SBSS Society for  Innovative Research international - All rights reserved</h3>
+        <div class="social">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+   
+
+	
+</body>
+</html>
